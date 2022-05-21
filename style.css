@@ -47,6 +47,11 @@ main {
     
 }
 
+h1 {
+    text-align: center;
+    font-size: 38px;
+}
+
 .col {
     flex: 33.33%;
     padding-top: 20px;
@@ -74,9 +79,8 @@ li {
     flex: 50%;
     /* border: 3px solid green; */
     height: 300px;
-    padding-top: 50px;
     margin-bottom: 50px;
-    margin-top: 50px;
+    
 }
 
 .column:nth-child(1) {
@@ -86,6 +90,7 @@ li {
 
 img {
     /* border: 2px solid greenyellow; */
+    margin-top: 20px;
     margin-right: 200px;
 }
 
@@ -95,8 +100,8 @@ img {
 }
 
 img {
-    height: 210px;
-    width: 210px;
+    height: 250px;
+    width: 250px;
     border-radius: 8px;
 }
 
@@ -108,8 +113,11 @@ h3 {
 }
 
 .form-container {
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 350px;
+    margin-right: 350px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
 
 input[type=text], input[type=email], input[type=password], input[type=number], select, textarea {
@@ -134,12 +142,6 @@ input[type=text], input[type=email], input[type=password], input[type=number], s
 
 #submit:hover {
     background-color: #45a049;
-}
-
-.form-container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
 }
 
 
