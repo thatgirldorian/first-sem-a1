@@ -3,18 +3,30 @@
     margin: 0;
 }
 
-/* Homepage styles */
+/* Navigation bar styles */
 nav {
-    margin-top: 10px;
-    border: 2px solid green;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 0;
+    text-align: center;
+    background-color: gainsboro
 }
 
 nav a {
-    padding-left: 30px;
-    padding-right: 30px;
-    border: 1px solid blue;
+    padding: 10px  15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+    
 }
 
+ul {
+    list-style: none;
+}
+
+/* Main content styles */
 main {
     text-align: center;
     border: 1px solid red;
