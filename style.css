@@ -52,6 +52,7 @@ main {
 h1 {
     text-align: center;
     font-size: 38px;
+    padding-bottom: 20px;
 }
 
 .col {
@@ -86,7 +87,6 @@ li {
     line-height: 1.5;
 }
 
-
 .column {
     flex: 50%;
     /* border: 3px solid green; */
@@ -95,27 +95,25 @@ li {
     
 }
 
-.column:nth-child(1) {
+.column p {
     /* border: 3px solid red; */
     line-height: 1.5;
+    padding-left: 70px;
+    margin-bottom: 20px;
+    text-align: left;
 }
 
 img {
     /* border: 2px solid greenyellow; */
-    margin-top: 20px;
-    margin-right: 200px;
+    margin-right: 40px;
+    height: 295px;
+    width: 300px;
+    border-radius: 8px;
 }
 
 .about-me {
     margin-bottom: 40px;
     margin-left: 150px;
-}
-
-
-img {
-    height: 250px;
-    width: 250px;
-    border-radius: 8px;
 }
 
 /* Form styles  */
@@ -126,8 +124,8 @@ h3 {
 }
 
 .form-container {
-    margin-left: 350px;
-    margin-right: 350px;
+    margin-left: 270px;
+    margin-right: 270px;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
@@ -145,7 +143,7 @@ input[type=text], input[type=email], input[type=password], input[type=number], s
 }
 
 #submit {
-    background-color: #242F9B;
+    background-color: #646FD4;;
     padding: 10px 15px;
     border-radius: 8px;
     text-decoration: none;
@@ -166,7 +164,7 @@ footer {
 }
 
 footer a {
-    background-color: #242F9B;
+    background-color: #646FD4;
     padding: 12px;
     border-radius: 8px;
     text-decoration: none;
