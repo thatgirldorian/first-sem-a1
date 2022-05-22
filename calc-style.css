@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* Main container styles */
+.main {
+    margin: auto;
+    display:flex;
+    max-width: 450px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container styles */
+.calc-container {
+    width: 100%;
+    background-color: white;
+    padding-right: 10%;
+    padding-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+h2, p {
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* Header styles */
+header {
+    font-weight: 400;
+    font-family: 'Titillium Web', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    }
+
+
+/* Calculator screen styles  */
+.calc-screen {
+    display: flex;
+    width: 400px;
+    height: 120px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 15px 15px rgba(0, 0, 0, 0.05);
+    border: 2px solid #EDEDED;
+    align-items: flex-end;
+}
+
+.screen1 {
+    background-color: white;
+    width: 400px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom:20px;
+    height: 20px;
+    position: relative;
+    top: -40px;
+    overflow-wrap: break-word;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* float:right; */
+    text-align: left;
+}
+
+.screen2 {
+    background-color: white;
+    width: 200px;
+    font-size: 28px;
+    border-radius: 8px;
+    position: relative;
+    top: -10px;
+    height: 20px;
+}
+
+
+input {
+    color: black;
+    padding: 25px;
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 1.5px;
+    text-align: right;
+    border: 0;
+    font-weight: 700;
+}
+
+/* Calculator screen styles */
+
+.calc-body {
+    width: 400px;
+    height: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    direction: row;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 15px 15px rgba(0, 0, 0, 0.05);
+    border: 2px solid #EDEDED;
+}
+
+/* Button styles */
+
+.calc-buttons {
+    position: relative;
+    left: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+.col {
+    width: 60px;
+    padding: 10px 28px 10px 28px;
+    background-color: #F1F3F4;
+    color: black;
+    border: 1px solid white;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding-left: 25px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+.delete {
+    border: 1px solid #DADCE0;
+    color: black;
+    padding-left: 15px;
+    background-color: #DADCE0;
+    font-weight: 600;
+}
+
+.other-buttons  {
+    margin: 0 auto;
+}
+
+.sign {
+    background-color: #DADCE0;
+    color: white;
+    border: 1px solid #DADCE0;
+    color: black;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.btn {
+    margin: 0 auto;
+    display: inline-block;
+    padding: 12px 25px 12px 25px;
+    margin-right: 6px;
+    margin-bottom: 20px;
+    margin-top:  20px;
+    margin-left: 24px;
+    width: 160px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.reset {
+    background-color: #DADCE0;
+    color: white;
+    border: 1px solid #DADCE0;
+    color: black;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.equal {
+    background: linear-gradient(270deg, #3CBDFE 0%, #00AAFF 100%);
+    border: 1px solid ;
+    color: white;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+/* Responsive styles for mobile */
+@media only screen and (max-width: 600px) {
+
+.calc-container {
+    width: 80%;
+    background-color: white;
+    margin-left: 13%;
+    margin-right: 40%;
+    /* padding-right: 60px; */
+    /* margin-top: 10%;
+    margin-bottom: 10%;
+    */
+}
+}
+
+
+
+/* Navigation bar styles */
+nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 0;
+    text-align: center;
+    background-color: gainsboro
+}
+
+nav a {
+    padding: 5px  15px 5px 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 8px;
+    
+}
+
+ul {
+    list-style: none;
+}
