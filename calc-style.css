@@ -9,6 +9,34 @@ body {
     font-family: 'Titillium Web', sans-serif;
 }
 
+/* Navigation bar styles */
+nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 0;
+    text-align: center;
+    background-color: #DBDFFD;
+}
+
+nav a {
+    padding: 5px  15px 5px 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #9BA3EB;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    background-color: #9BA3EB;
+}
+
+ul {
+    list-style: none;
+}
+
 /* Main container styles */
 .main {
     margin: auto;
@@ -186,7 +214,7 @@ input {
 }
 
 .equal {
-    background: linear-gradient(270deg, #3CBDFE 0%, #00AAFF 100%);
+    background: #242F9B;
     border: 1px solid ;
     color: white;
     border-radius: 6px;
@@ -210,27 +238,3 @@ input {
 
 
 
-/* Navigation bar styles */
-nav {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 0;
-    text-align: center;
-    background-color: gainsboro
-}
-
-nav a {
-    padding: 5px  15px 5px 15px;
-    margin-left: 50px;
-    margin-right: 50px;
-    border-radius: 8px;
-    text-decoration: none;
-    color: black;
-    background-color: white;
-    border-radius: 8px;
-    
-}
-
-ul {
-    list-style: none;
-}
